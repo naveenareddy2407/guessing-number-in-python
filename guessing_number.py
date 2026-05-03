@@ -7,3 +7,5 @@ while guess_count < guess_limit:
     if guess == secret_number:
         print('you won')
         break
+else:
+    print("sorry, you failed!") 8 
